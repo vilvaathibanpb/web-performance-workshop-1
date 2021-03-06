@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Async/Defer</title>
+        <script defer src="script1.js"></script>
+        <script defer src="script2.js"></script>
+        <script>
+            setTimeout(() => {
+                console.log("1");
+            }, 1000)
+        </script>
+    </head>
+    <body>
+        <h1>Check Async Defer scripts</h1>
+    </body>
+</html>
